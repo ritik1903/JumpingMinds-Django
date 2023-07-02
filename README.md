@@ -1,5 +1,13 @@
 # Elevator problem
 
+### APIs
+
+1. Initialize elevator system
+2. Request elevator for floor
+3. Get elevator by Id
+4. Get all elevators
+5. Close elevator door (open by default)
+
 ## About this repo
 - Every PR sent to main branch and rest framework branch will run tests on pull requests.
 - I have set up pre-commit-hooks which would stop the commit if the tests fail.
