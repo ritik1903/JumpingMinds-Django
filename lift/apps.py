@@ -1,6 +1,6 @@
-# from django.apps import AppConfig
+from django.apps import AppConfig
 
 
-# class LiftConfig(AppConfig):
-#     default_auto_field = "django.db.models.BigAutoField"
-#     name = "lift"
+class LiftConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "lift"
