@@ -32,7 +32,7 @@ python manage.py runserver
 3. So if there are a total of 5 floors, there will be 5 buttons per floor.
 4. Note that, this doesn't not mimic real world, when you would have a total of 10 buttons for 5 floors ( one for up and one for down)
 5. Once the elevator reaches its called point, then based on what floor is requested, it moves either up or down.
-6. Assume the API calls which make the elevator go up/down or stop will reflect immediately. When the API to go up is called, you can assume that the elevator has already reached above floor.
+6. Assume the API calls which makes elevator go up/down or stop will reflect immediately. When the API to go up is called, you can assume that the elevator has already reached above floor.
 7. The system has to assign the most optimal elevator to the user according to their request.
 
 **I have assumed infinite number of floors, It can be limited if required**
